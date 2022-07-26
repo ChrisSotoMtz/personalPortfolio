@@ -27,7 +27,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="#home" className="navbar-text">
-          <h1 className="title-brand">{"{</>}"}</h1>
+          <img  className="brand-img" src="../assets/terminal.png" alt="" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="testf">

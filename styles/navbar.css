@@ -3,6 +3,12 @@
   color: aqua;
 }
 
+.brand-img{
+  width: 50px;
+  filter: invert(80%);
+
+}
+
 .color-nav {
   background-color: transparent;
   z-index: 999;
