@@ -6,9 +6,7 @@ function Banner() {
   return (
     <section id="home">
       <div>
-        <div>
-          
-        </div>
+        <div></div>
       </div>
 
       <div className="backDrop">
@@ -18,10 +16,10 @@ function Banner() {
               <Col md={12} lg={6} className="col2">
                 <h1 className="type-text">{"Hello I'm Chris"}</h1>
                 <p className="desc-text">
-                  I'm a currently a 21 years old student, i like web development
+                  {`I'm a currently a 21 years old student, i like web development
                   and I am trying to learn other programming languages and web
                   development frameworks, step by step, i'll be happy to learn
-                  anything
+                  anything`}
                 </p>
                 <Button className="bannerButton">Download Resume</Button>
               </Col>
