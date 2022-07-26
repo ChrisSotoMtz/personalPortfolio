@@ -16,7 +16,7 @@ function Banner() {
           <Container>
             <Row className="align-items-center">
               <Col md={12} lg={6} className="col2">
-                <h1 className="type-text">Hello I'm Chris</h1>
+                <h1 className="type-text">{"Hello I'm Chris"}</h1>
                 <p className="desc-text">
                   I'm a currently a 21 years old student, i like web development
                   and I am trying to learn other programming languages and web
