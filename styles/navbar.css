@@ -1,0 +1,58 @@
+.navbar-text {
+  font-size: 2rem;
+  color: aqua;
+}
+
+.color-nav {
+  background-color: transparent;
+  z-index: 999;
+  color: white;
+}
+
+.color-nav-scroll {
+  color: white;
+  position: sticky;
+  top: 0;
+  background-color: #181818;
+  width: 100%;
+  z-index: 999;
+  height: 9%;
+  animation: appear 1s;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+.nav-brand {
+  width: 50px;
+}
+.nav-icon {
+  cursor: pointer;
+  margin-right: 0.2rem;
+  color: lightgrey;
+}
+
+.nav-link {
+  color: #d9d9d9;
+}
+
+.nav-icon:hover {
+  color: white;
+}
+
+@media screen and (max-width: 985px) {
+  .nav-icon {
+    display: none;
+  }
+}
+
+.title-brand {
+  font-size: 2.5rem;
+  color: white;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,132 @@
+.banner {
+  background-image: url("../public/assets/banner.jpg");
+  position: relative;
+  top: -100px;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 260px 0 500px 0;
+  filter: contrast(1);
+  z-index: 1;
+}
+.backDrop {
+  background-color: #181818;
+  position: relative;   
+  margin-bottom: -100px;
+  z-index: 1;
+}
+.desc-text {
+  filter: none;
+  font-size: 1.4rem;
+  animation: appear 6s;
+  overflow: hidden;
+  color: white;
+}
+
+.type-text {
+  font-size: 4rem;
+  color: white;
+  animation: type 5s;
+  overflow: hidden;
+  white-space: nowrap;
+  z-index: 500;
+}
+
+.bannerButton{
+  background-color: #d3d3d3;
+  color: #181818;
+  cursor: pointer;
+  z-index: 1000;
+  font-weight: 600;
+  border: none;
+  width: 10rem;
+  max-width: fit-content;
+}
+
+.bannerButton:hover{
+  background-color: #181818;
+  color: #d3d3d3;
+}
+
+.bannerButton:focus{
+  outline: none;
+  background-color: #181818;
+  border: none;
+}
+
+.spinning-sun {
+  text-align: center;
+  margin-left: 35%;
+  position: relative;
+  width: 60%;
+  filter: invert(85%);
+  animation: spin 30s infinite linear;
+}
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 988px) {
+  
+  .type-text {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .desc-text {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .spinning-sun {
+    position: static;
+    width: 30%;
+    margin-bottom: 20px;
+  }
+  .banner {
+    top: -330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .type-text {
+    margin-top: 10rem;
+  }
+
+  .col2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bannerButton{
+    margin: 1rem 0 1rem 0;
+  }
+
+}
