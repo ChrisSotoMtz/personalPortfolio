@@ -30,8 +30,8 @@ function NavBar() {
           <img  className="brand-img" src="../assets/terminal.png" alt="" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav" className="testf">
-          <Nav className="ms-auto">
+        <Navbar.Collapse id="basic-navbar-nav" >
+          <Nav className="ms-auto nav-text-icon">
             <Nav.Link href="#home" className="nav-link">
               About me
             </Nav.Link>

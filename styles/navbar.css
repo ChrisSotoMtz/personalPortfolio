@@ -22,7 +22,7 @@
   background-color: #181818;
   width: 100%;
   z-index: 999;
-  height: 9%;
+  height: auto;
   animation: appear 1s;
 }
 
@@ -51,14 +51,32 @@
   color: white;
 }
 
-@media screen and (max-width: 985px) {
-  .nav-icon {
-    display: none;
-  }
-}
 
 .title-brand {
   font-size: 2.5rem;
   color: white;
   margin-bottom: 20px;
+}
+
+@media (max-width: 992px) {
+
+  .color-nav{
+    background-color: #181818;
+  }
+   .nav-cont-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  
+   }
+   .nav-text-icon{
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 1rem;
+
+   }
 }
